@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF00"> <!-- Yellow background -->
+
+    <!-- Title Bar -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Graphical Primitives"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#800080"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"/>
+
+    <!-- Custom Canvas -->
+    <com.example.exp3_100.SampleCanvas
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
