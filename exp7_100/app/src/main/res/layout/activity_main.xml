@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD Card"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#800080"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/registerNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the register number..!"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name..!"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cgpaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the CGPA..!"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:background="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
